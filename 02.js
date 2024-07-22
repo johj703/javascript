@@ -21,3 +21,8 @@ console.log(typeof num2);
 let num3 = 2.5e5; // 2.5 x 10^5
 console.log(num3);
 console.log(typeof num3);
+
+// 1-4. 숫자가 아닌 값을 변환하려고 할 때 나타나는 현상
+// Nan : Not a Number
+let num4 = "Hello" / 2;
+console.log(num4);
