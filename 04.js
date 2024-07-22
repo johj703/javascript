@@ -11,4 +11,9 @@ let bool2 = false;
 // undefined
 // un : not, define: 정의하다
 let x;
-console.log(x);
+// console.log(x);
+
+// null : 값이 존재하지 않음을 '명시적'으로 나타내는 방법
+// null != undefined
+let y = null;
+console.log(y);
