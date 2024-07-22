@@ -26,3 +26,13 @@ console.log(typeof num3);
 // Nan : Not a Number
 let num4 = "Hello" / 2;
 console.log(num4);
+
+// 1-5. Infinity(무한대)
+let num5 = 1 / 0;
+console.log(num5);
+console.log(typeof num5);
+
+// 1-6. Infinity(무한대)
+let num6 = -1 / 0;
+console.log(num6);
+console.log(typeof num6);
