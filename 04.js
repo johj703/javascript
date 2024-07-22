@@ -16,4 +16,13 @@ let x;
 // null : 값이 존재하지 않음을 '명시적'으로 나타내는 방법
 // null != undefined
 let y = null;
-console.log(y);
+// console.log(y);
+
+// object(객체) : key-value pair
+let person = {
+  name: "choi",
+  age: 20,
+  isMarried: true,
+};
+
+// array(배열)
