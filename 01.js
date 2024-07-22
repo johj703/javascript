@@ -12,6 +12,7 @@
 // 1. var
 var myVar = "Hello World";
 var myVar = "Test 1";
+myVar = "GoodBye";
 console.log(myVar);
 
 // var myVar1 = 3;과 같다.
@@ -21,9 +22,11 @@ myVar1 = 3;
 // 2. let
 let myLet = "Hello World1";
 // let myLet = "Test 2";
+myLet = "Goodbye 1";
 console.log(myLet);
 
 // 3. const
 const myConst = "Hello World2";
 // const myConst = "Test 3";
+myConst = "Goodbye 2";
 console.log(myConst);
