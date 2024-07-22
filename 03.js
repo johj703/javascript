@@ -15,5 +15,9 @@ let result = str1.concat(str2);
 
 // 2-3. 문자열 자르기
 let str3 = "Hello, World!";
-console.log(str3.substr(7, 5));
-console.log(str3.slice(7, 12));
+// console.log(str3.substr(7, 5));
+// console.log(str3.slice(7, 12));
+
+// 2-4. 문자열 검색
+let str4 = "Hello, World1";
+console.log(str4.search("World"));
