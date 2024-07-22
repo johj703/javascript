@@ -10,4 +10,5 @@ console.log(str.length);
 // 2-2. 문자열 결합하기(Concatenation)
 let str1 = "Hello, ";
 let str2 = "world!";
-let result = str1.concat();
+let result = str1.concat(str2);
+console.log(result);
