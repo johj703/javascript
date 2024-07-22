@@ -16,3 +16,8 @@ console.log(typeof num1);
 let num2 = 3.14;
 console.log(num2);
 console.log(typeof num2);
+
+// 1-3. 지수형(Exp)
+let num3 = 2.5e5; // 2.5 x 10^5
+console.log(num3);
+console.log(typeof num3);
