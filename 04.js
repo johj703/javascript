@@ -25,4 +25,10 @@ let person = {
   isMarried: true,
 };
 
+// console.log(typeof person);
+
 // array(배열)
+// 여러 개의 데이터를 순서대로 저장하는 데이터 타입!
+// 배열의 인덱스는 0부터 시작한다!
+let number = [1, 2, 3, 4, 5];
+let fruit = ["apple", "banana", "orange"];
