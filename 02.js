@@ -11,3 +11,8 @@
 let num1 = 10;
 console.log(num1);
 console.log(typeof num1);
+
+// 1-2. 실수(float)
+let num2 = 3.14;
+console.log(num2);
+console.log(typeof num2);
