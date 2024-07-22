@@ -16,3 +16,4 @@ let result = str1.concat(str2);
 // 2-3. 문자열 자르기
 let str3 = "Hello, World!";
 console.log(str3.substr(7, 5));
+console.log(str3.slice(7, 12));
