@@ -21,3 +21,8 @@ let str3 = "Hello, World!";
 // 2-4. 문자열 검색
 let str4 = "Hello, World1";
 console.log(str4.search("World"));
+
+// 2-5. 문자열 대체
+let str5 = "Hello, World!";
+let result01 = str5.replace("World", "Javascript");
+console.log(result01);
