@@ -11,12 +11,19 @@
 // 변수를 선언할 수 있는 3가지 방법 : var, let, const
 // 1. var
 var myVar = "Hello World";
+var myVar = "Test 1";
 console.log(myVar);
+
+// var myVar1 = 3;과 같다.
+var myVar1;
+myVar1 = 3;
 
 // 2. let
 let myLet = "Hello World1";
+// let myLet = "Test 2";
 console.log(myLet);
 
 // 3. const
 const myConst = "Hello World2";
+// const myConst = "Test 3";
 console.log(myConst);
