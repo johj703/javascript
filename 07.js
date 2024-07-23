@@ -22,3 +22,6 @@ let add2 = function (x, y) {
 // add2를 가지고 10과 20을 더한 값을 출력해보세요!
 let functionResult2 = add2(10, 20);
 console.log(functionResult2);
+
+// input : 함수의 input => 매개변수(매개체가 되는 변수!)
+// output : return문 뒤에 오는 값 : 반환 값
