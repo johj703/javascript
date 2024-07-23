@@ -87,3 +87,10 @@ console.log("---------");
 console.log(!true);
 let a = true;
 console.log(!a);
+
+// 5. 삼항 연산자(중요!)
+// 조건에 따라 값을 선택한다.
+let x = 10;
+let result = x > 5 ? "크다" : "작다";
+console.log("---------");
+console.log(result);
