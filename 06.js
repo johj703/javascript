@@ -22,19 +22,25 @@
 
 // 6. 할당 연산자(assignment)
 // 6-1. 등호 연산자(=)
-let x = 10;
-console.log(x);
+// let x = 10;
+// console.log(x);
 
 // 6-2. 더하기 등호 연산자(+=);
-x += 5;
-console.log(x);
+// x += 5;
+// console.log(x);
 
 // 6-3. 빼기 등호 연산자(-=)
-x -= 5;
-// x = x -5;
-console.log(x);
+// x -= 5;
+// // x = x -5;
+// console.log(x);
 
 // 여기서 x를 -10으로
 // x -= 20;
-x = x - 20;
-console.log(x);
+// x = x - 20;
+// console.log(x);
+
+// 6-4. 곱하기 등호 연산자(*=)
+// let a = 10;
+// a *= 2;
+
+// console.log(a);
