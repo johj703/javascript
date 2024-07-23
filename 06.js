@@ -94,3 +94,12 @@ let x = 10;
 let result = x > 5 ? "크다" : "작다";
 console.log("---------");
 console.log(result);
+
+console.log("---------");
+
+let y = 20;
+// 삼항 연산자를 이용해서 y가 10보다 작은 경우 작다를
+// console.log로 출력해주세요.
+// 10보다 크다면 크다를 출력해주세요!
+let answer = y < 10 ? "작다" : "크다";
+console.log(answer);
