@@ -103,3 +103,6 @@ let y = 20;
 // 10보다 크다면 크다를 출력해주세요!
 let answer = y < 10 ? "작다" : "크다";
 console.log(answer);
+
+// 6. 타입 연산자(typeof)
+console.log(typeof "5");
