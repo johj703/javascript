@@ -24,11 +24,32 @@ let result4 = "2" * "3";
 
 // 2. 명시적 형 변환
 // 2-1. Boolean
-console.log(Boolean(0));
-console.log(Boolean(""));
-console.log(Boolean(null));
-console.log(Boolean(undefined));
-console.log(Boolean(NaN));
-console.log("---------------------");
-console.log(Boolean("false"));
-console.log(Boolean({}));
+// console.log(Boolean(0));
+// console.log(Boolean(""));
+// console.log(Boolean(null));
+// console.log(Boolean(undefined));
+// console.log(Boolean(NaN));
+// console.log("---------------------");
+// console.log(Boolean("false"));
+// console.log(Boolean({}));
+
+// 2-2. 문자열
+let result5 = String(123);
+console.log(typeof result5);
+console.log(result5);
+
+let result6 = String(true);
+console.log(typeof result6);
+console.log(result6);
+
+let result7 = String(false);
+console.log(typeof result7);
+console.log(result7);
+
+let result8 = String(null);
+console.log(typeof result8);
+console.log(result8);
+
+let result9 = String(undefined);
+console.log(typeof result9);
+console.log(result9);
