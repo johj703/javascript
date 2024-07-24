@@ -26,11 +26,16 @@
 //   console.log("x는 음수 입니다.");
 // }
 
+let x = 10;
+
 // if - else if - else 문
-if (조건1) {
+if (x < 0) {
   // main logic #1
-} else if (조건2) {
+  console.log("1");
+} else if (x >= 0 && x < 10) {
   // main logic #2
+  console.log("2");
 } else {
   // main logic #3
+  console.log("3");
 }
