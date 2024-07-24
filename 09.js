@@ -16,12 +16,21 @@
 //   console.log(y.length);
 // }
 
-let x = 10;
-// 2. if - else문
-if (x > 0) {
-  // main login #1
-  console.log("x는 양수 입니다.");
-} else {
+// let x = -3;
+// // 2. if - else문
+// if (x > 0) {
+//   // main login #1
+//   console.log("x는 양수 입니다.");
+// } else {
+//   // main logic #2
+//   console.log("x는 음수 입니다.");
+// }
+
+// if - else if - else 문
+if (조건1) {
+  // main logic #1
+} else if (조건2) {
   // main logic #2
-  console.log("x는 음수 입니다.");
+} else {
+  // main logic #3
 }
