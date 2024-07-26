@@ -11,3 +11,5 @@ let number = new Array(5);
 
 // 2. 요소 접근
 console.log(fruits[0]);
+console.log(fruits[1]);
+console.log(fruits[2]);
