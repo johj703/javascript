@@ -23,8 +23,14 @@ let number = new Array(5);
 // console.log("2 => ", fruits);
 
 // 3-2. pop
-let fruits = ["사과", "바나나"];
+// let fruits = ["사과", "바나나"];
 
+// console.log("1 => ", fruits);
+// fruits.pop();
+// console.log("2 => ", fruits);
+
+// 3-3. shift
+let fruits = ["사과", "바나나"];
 console.log("1 => ", fruits);
-fruits.pop();
+fruits.shift();
 console.log("2 => ", fruits);
