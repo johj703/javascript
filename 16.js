@@ -31,6 +31,10 @@ let number = new Array(5);
 
 // 3-3. shift
 let fruits = ["사과", "바나나"];
-console.log("1 => ", fruits);
-fruits.shift();
-console.log("2 => ", fruits);
+// console.log("1 => ", fruits);
+// fruits.shift();
+// console.log("2 => ", fruits);
+
+// 3-4. unshift
+fruits.unshift("포도");
+console.log(fruits);
