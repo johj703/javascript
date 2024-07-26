@@ -16,8 +16,15 @@ let number = new Array(5);
 
 // 3. 배열 메소드
 // 3-1. push
-let fruits = ["사과", "바나나"];
-console.log("1 => ", fruits);
+// let fruits = ["사과", "바나나"];
+// console.log("1 => ", fruits);
 
-fruits.push("오렌지");
+// fruits.push("오렌지");
+// console.log("2 => ", fruits);
+
+// 3-2. pop
+let fruits = ["사과", "바나나"];
+
+console.log("1 => ", fruits);
+fruits.pop();
 console.log("2 => ", fruits);
