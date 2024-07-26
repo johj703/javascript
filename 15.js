@@ -19,3 +19,8 @@ function Person(name, age, gender) {
 
 let person1 = new Person("홍길동", 30, "남자");
 let person2 = new Person("홍길순", 20, "여자");
+
+// 2. 접근하는 방법
+console.log("1", person.name);
+console.log("2", person.age);
+console.log("3", person.gender);
