@@ -55,17 +55,17 @@ Object.assign(newPerson, person, { gender: "여자" });
 // 객체, 배열은 크기가 크기 때문에 메모리에 저장할 때, 별도의 공간에 저장한다.
 // 객체는 별도 공간에 저장할 때 값을 저장하는 것이 아니라, 주소 값을 저장하게 된다.
 // 그렇기 때문에 같은 key와 value를 가진 객체라도 비교하면 false 값이 나오게 된다!
-let person1 = {
-  name: "홍길동",
-  age: 30,
-  gender: "남자",
-};
+// let person1 = {
+//   name: "홍길동",
+//   age: 30,
+//   gender: "남자",
+// };
 
-let person2 = {
-  name: "홍길동",
-  age: 30,
-  gender: "남자",
-};
+// let person2 = {
+//   name: "홍길동",
+//   age: 30,
+//   gender: "남자",
+// };
 
 // let str1 = "aaa";
 // let str2 = "aaa";
@@ -73,4 +73,19 @@ let person2 = {
 // console.log("answer => ", person1 === person2);
 // console.log("answer2 => ", str1 === str2);
 
-console.log(JSON.stringify(person1) === JSON.stringify(person2));
+// console.log(JSON.stringify(person1) === JSON.stringify(person2));
+
+// 3-6. 객체 병합
+let person1 = {
+  name: "홍길동",
+  age: 30,
+};
+
+let person2 = {
+  gender: "남자",
+};
+
+// ... : spread operator
+let perfectMan = { ...person1, ...person2 };
+
+console.log(perfectMan);
