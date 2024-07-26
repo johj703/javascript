@@ -35,3 +35,7 @@ let person = {
 
 let keys = Object.keys(person);
 console.log("keys => ", keys);
+
+// 3-2. values
+let values = Object.values(person);
+console.log("values => ", values);
