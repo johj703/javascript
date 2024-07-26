@@ -39,8 +39,12 @@ let number = new Array(5);
 // fruits.unshift("포도");
 // console.log(fruits);
 
-let fruits = ["사과", "바나나", "키위"];
 // 3-5. splice
-fruits.splice(1, 1, "포도");
-fruits.splice();
-console.log(fruits);
+// fruits.splice(1, 1, "포도");
+// fruits.splice();
+// console.log(fruits);
+
+let fruits = ["사과", "바나나", "키위"];
+// 3-6. slice
+let sliceFruits = fruits.slice(1, 2);
+console.log(sliceFruits);
