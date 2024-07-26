@@ -39,3 +39,8 @@ console.log("keys => ", keys);
 // 3-2. values
 let values = Object.values(person);
 console.log("values => ", values);
+
+// 3-3. entries
+// key와 value를 묶어서 배열로 만든 배열!(2차원 배열)
+let entries = Object.entries(person);
+console.log("entries => ", entries);
