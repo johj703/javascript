@@ -4,23 +4,34 @@
 
 // 1. 객체 생성 방법
 // 1-1. 기본적인 객체 생성 방법
+// let person = {
+//   name: "홍길동",
+//   age: 30,
+//   gender: "남자",
+// };
+
+// 1-2. 생성자 함수를 이용한 객체 생성 방법
+// function Person(name, age, gender) {
+//   this.name = name;
+//   this.age = age;
+//   this.gender = gender;
+// }
+
+// let person1 = new Person("홍길동", 30, "남자");
+// let person2 = new Person("홍길순", 20, "여자");
+
+// 2. 접근하는 방법
+// console.log("1", person.name);
+// console.log("2", person.age);
+// console.log("3", person.gender);
+
+// 3. 객체 메소드(객체가 가진 여러가지 기능 : Object.~~~)
+// 3-1. Object.key() : Key를 가져오는 메소드
 let person = {
   name: "홍길동",
   age: 30,
   gender: "남자",
 };
 
-// 1-2. 생성자 함수를 이용한 객체 생성 방법
-function Person(name, age, gender) {
-  this.name = name;
-  this.age = age;
-  this.gender = gender;
-}
-
-let person1 = new Person("홍길동", 30, "남자");
-let person2 = new Person("홍길순", 20, "여자");
-
-// 2. 접근하는 방법
-console.log("1", person.name);
-console.log("2", person.age);
-console.log("3", person.gender);
+let keys = Object.keys(person);
+console.log("keys => ", keys);
