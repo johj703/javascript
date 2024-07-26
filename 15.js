@@ -67,8 +67,8 @@ let person2 = {
   gender: "남자",
 };
 
-let str1 = "aaa";
-let str2 = "aaa";
+// let str1 = "aaa";
+// let str2 = "aaa";
 
-console.log("answer => ", person1 === person2);
-console.log("answer2 => ", str1 === str2);
+// console.log("answer => ", person1 === person2);
+// console.log("answer2 => ", str1 === str2);
