@@ -49,7 +49,7 @@ let entries = Object.entries(person);
 // 객체 복사
 let newPerson = {};
 Object.assign(newPerson, person, { gender: "여자" });
-console.log("newPerson => ", newPerson);
+// console.log("newPerson => ", newPerson);
 
 // 3-5. 객체 비교
 let person1 = {
@@ -64,4 +64,4 @@ let person2 = {
   gender: "남자",
 };
 
-console.log(person1 === person2);
+console.log("answer => ", person1 === person2);
