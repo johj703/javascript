@@ -72,3 +72,5 @@ let person2 = {
 
 // console.log("answer => ", person1 === person2);
 // console.log("answer2 => ", str1 === str2);
+
+console.log(JSON.stringify(person1) === JSON.stringify(person2));
