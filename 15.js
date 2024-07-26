@@ -52,6 +52,9 @@ Object.assign(newPerson, person, { gender: "여자" });
 // console.log("newPerson => ", newPerson);
 
 // 3-5. 객체 비교
+// 객체, 배열은 크기가 크기 때문에 메모리에 저장할 때, 별도의 공간에 저장한다.
+// 객체는 별도 공간에 저장할 때 값을 저장하는 것이 아니라, 주소 값을 저장하게 된다.
+// 그렇기 때문에 같은 key와 value를 가진 객체라도 비교하면 false 값이 나오게 된다!
 let person1 = {
   name: "홍길동",
   age: 30,
