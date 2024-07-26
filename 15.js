@@ -34,13 +34,19 @@ let person = {
 };
 
 let keys = Object.keys(person);
-console.log("keys => ", keys);
+// console.log("keys => ", keys);
 
 // 3-2. values
 let values = Object.values(person);
-console.log("values => ", values);
+// console.log("values => ", values);
 
 // 3-3. entries
 // key와 value를 묶어서 배열로 만든 배열!(2차원 배열)
 let entries = Object.entries(person);
-console.log("entries => ", entries);
+// console.log("entries => ", entries);
+
+// 3-4. assign
+// 객체 복사
+let newPerson = {};
+Object.assign(newPerson, person);
+console.log("newPerson => ", newPerson);
