@@ -48,5 +48,5 @@ let entries = Object.entries(person);
 // 3-4. assign
 // 객체 복사
 let newPerson = {};
-Object.assign(newPerson, person, { age: 31 });
+Object.assign(newPerson, person, { gender: "여자" });
 console.log("newPerson => ", newPerson);
