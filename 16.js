@@ -30,11 +30,17 @@ let number = new Array(5);
 // console.log("2 => ", fruits);
 
 // 3-3. shift
-let fruits = ["사과", "바나나"];
+
 // console.log("1 => ", fruits);
 // fruits.shift();
 // console.log("2 => ", fruits);
 
 // 3-4. unshift
-fruits.unshift("포도");
+// fruits.unshift("포도");
+// console.log(fruits);
+
+let fruits = ["사과", "바나나", "키위"];
+// 3-5. splice
+fruits.splice(1, 1, "포도");
+fruits.splice();
 console.log(fruits);
