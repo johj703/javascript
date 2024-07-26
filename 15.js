@@ -50,3 +50,18 @@ let entries = Object.entries(person);
 let newPerson = {};
 Object.assign(newPerson, person, { gender: "여자" });
 console.log("newPerson => ", newPerson);
+
+// 3-5. 객체 비교
+let person1 = {
+  name: "홍길동",
+  age: 30,
+  gender: "남자",
+};
+
+let person2 = {
+  name: "홍길동",
+  age: 30,
+  gender: "남자",
+};
+
+console.log(person1 === person2);
