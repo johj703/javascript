@@ -35,6 +35,7 @@ let person = {
   gender: "male",
 };
 
+// 객체의 vaule에 접근하는 방법 "person[key]"
 for (let key in person) {
   console.log(key + " : " + person[key]);
 }
