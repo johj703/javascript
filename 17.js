@@ -11,8 +11,8 @@
 // }
 
 // 배열과 for문은 짝꿍이다.
-const arr = ["one", "two", "three", "four", "five"];
-for (let i = 0; i < arr.length; i++) {
-  console.log(i);
-  console.log(arr[i]);
-}
+// const arr = ["one", "two", "three", "four", "five"];
+// for (let i = 0; i < arr.length; i++) {
+//   console.log(i);
+//   console.log(arr[i]);
+// }
