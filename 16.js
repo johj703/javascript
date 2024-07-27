@@ -48,3 +48,6 @@ let number = new Array(5);
 // 3-6. slice
 // let sliceFruits = fruits.slice(1, 2);
 // console.log(sliceFruits);
+
+// forEach, map, filter, find
+let numbers = [1, 2, 3, 4, 5];
