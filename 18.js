@@ -22,9 +22,16 @@
 // }
 
 // do ~ while
-let i = 0;
+// let i = 0;
 
-do {
+// do {
+//   console.log(i);
+//   i++;
+// } while (i < 10);
+
+for (let i = 0; i <= 10; i++) {
+  if (i === 5) {
+    break;
+  }
   console.log(i);
-  i++;
-} while (i < 10);
+}
