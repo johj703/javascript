@@ -11,12 +11,20 @@
 // }
 
 // whlie문을 활용해서, 3 초과 100 미만의 숫자 중 5의 배수인 것만 출력하는 예
-let i = 3;
+// let i = 3;
 
-while (i < 100) {
-  if (i % 5 === 0 && i >= 5) {
-    console.log(i + "는 5의 배수 입니다!");
-  }
+// while (i < 100) {
+//   if (i % 5 === 0 && i >= 5) {
+//     console.log(i + "는 5의 배수 입니다!");
+//   }
 
+//   i++;
+// }
+
+// do ~ while
+let i = 0;
+
+do {
+  console.log(i);
   i++;
-}
+} while (i < 10);
