@@ -16,3 +16,11 @@
 //   console.log(i);
 //   console.log(arr[i]);
 // }
+
+//ex: 0부터 10까지의 수 중에서 2의 배수만 console.log로 출력하는 예시
+for (let i = 0; i < 11; i++) {
+  if (i % 2 === 0) {
+    // 2의 배수
+    console.log(i + "는 2의 배수 입니다!!");
+  }
+}
