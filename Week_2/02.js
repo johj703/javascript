@@ -9,8 +9,9 @@
 // console.log("2", value2);
 
 let arr = ["value1", "value2", "value3"];
-let [a, b, c] = arr;
+let [a, b, c, d] = arr;
 
-// console.log(a);
-// console.log(b);
-// console.log(c);
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
