@@ -33,4 +33,8 @@ function exampleFunc(a, b, c, ...args) {
   console.log(...args);
 }
 
-exampleFunc(1, 2, 3, 4, 5, 6, 7);
+// exampleFunc(1, 2, 3, 4, 5, 6, 7);
+
+// 템플릿 리터럴(Template Literal)
+const testValue = "안녕하세요";
+console.log(`Hello World ${testValue}`);
