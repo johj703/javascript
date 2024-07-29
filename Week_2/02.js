@@ -15,3 +15,18 @@ console.log(a);
 console.log(b);
 console.log(c);
 console.log(d);
+
+// (2) 객체인 경우
+// let user = {
+//   name: "nbc",
+//   age: 30,
+// };
+
+// 구조분해할당
+let { name, age } = {
+  name: "nbc",
+  age: 30,
+};
+
+console.log("name => ", name); // string
+console.log("age => ", age); // number
