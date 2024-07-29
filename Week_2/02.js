@@ -40,3 +40,8 @@ let user = {
 // let { name: newName, age: newAge } = user;
 // console.log("newName => ", newName);
 // console.log("newAge => ", newAge);
+
+let { name, age, birthday } = user;
+console.log(name);
+console.log(age);
+console.log(birthday);
