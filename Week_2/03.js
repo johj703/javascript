@@ -2,5 +2,5 @@
 const name = "nbc";
 const age = "30";
 
-// key - value
+// key - value가 같으면 생략할 수 있다!
 const obj = { name, age };
