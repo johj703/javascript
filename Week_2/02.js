@@ -35,6 +35,7 @@
 let user = {
   name: "nbc",
   age: 30,
+  birthday: "yesterday",
 };
 
 // let { name: newName, age: newAge } = user;
