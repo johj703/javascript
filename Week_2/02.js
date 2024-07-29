@@ -41,7 +41,7 @@ let user = {
 // console.log("newName => ", newName);
 // console.log("newAge => ", newAge);
 
-let { name, age, birthday } = user;
+let { name, age, birthday = "today" } = user;
 console.log(name);
 console.log(age);
 console.log(birthday);
