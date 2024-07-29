@@ -15,3 +15,14 @@ const obj1 = { name: name, age: age };
 // let newArr = [...arr, 4];
 // console.log(arr);
 // console.log(newArr);
+
+// 객체
+let user = {
+  name: "nbc",
+  age: 30,
+};
+
+let user2 = { ...user };
+
+console.log(user);
+console.log(user2);
