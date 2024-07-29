@@ -8,7 +8,7 @@
 // console.log("1", value1);
 // console.log("2", value2);
 
-let arr = ["value1", "value2", "value3"];
+let arr = ["value1", "value2", "value3", "value4"];
 let [a, b, c, d = 4] = arr;
 
 console.log(a);
