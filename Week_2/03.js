@@ -38,3 +38,9 @@ function exampleFunc(a, b, c, ...args) {
 // 템플릿 리터럴(Template Literal)
 const testValue = "안녕하세요";
 console.log(`Hello World ${testValue}`);
+console.log(`
+    Hello
+      My name is Javascript!!!
+
+      Nice to meet you!!
+  `);
