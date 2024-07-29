@@ -17,12 +17,20 @@ const obj1 = { name: name, age: age };
 // console.log(newArr);
 
 // 객체
-let user = {
-  name: "nbc",
-  age: 30,
-};
+// let user = {
+//   name: "nbc",
+//   age: 30,
+// };
 
-let user2 = { ...user };
+// let user2 = { ...user };
 
-console.log(user);
-console.log(user2);
+// console.log(user);
+// console.log(user2);
+
+// 나머지 매개변수 (rest parameter)
+function exampleFunc(a, b, c, ...args) {
+  console.log(a, b, c);
+  console.log(...args);
+}
+
+exampleFunc(1, 2, 3, 4, 5, 6, 7);
