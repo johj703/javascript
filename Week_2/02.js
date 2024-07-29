@@ -37,6 +37,6 @@ let user = {
   age: 30,
 };
 
-let { name: newName, age: newAge } = user;
-console.log("newName => ", newName);
-console.log("newAge => ", newAge);
+// let { name: newName, age: newAge } = user;
+// console.log("newName => ", newName);
+// console.log("newAge => ", newAge);
