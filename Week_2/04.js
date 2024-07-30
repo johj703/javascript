@@ -10,6 +10,8 @@
 // sayHello();
 
 // (2) 함수를 인자로 다른 함수에 전달 할 수가 있다.
+// (2)-1. 콜백 함수 : 매개변수로서 쓰이는 함수
+// (2)-2. 고차 함수 : 함수를 인자로 받거나 return하는 함수
 function callFunction (func) {
     // 매개변수로 받은 변수가 사실, 함수다.
     func();
@@ -17,4 +19,6 @@ function callFunction (func) {
 
 const sayHello = function () {
     console.log('Hello');
-}
+};
+
+callFunction(sayHello);
