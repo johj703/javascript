@@ -8,7 +8,7 @@ const person = {
     // }
     sayHello: function () {
         // console.log('Hello My name is ' + this.name);
-        console.log(`Helle My name is ${this.name}`);
+        console.log(`Hello My name is ${this.name}`);
     }
 }
 
