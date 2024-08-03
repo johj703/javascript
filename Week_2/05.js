@@ -4,7 +4,8 @@ const person = {
     age: 31,
     isMarried: true,
     sayHello: function () {
-        console.log('Hello My name is ' + this.name);
+        // console.log('Hello My name is ' + this.name);
+        console.log(`Helle My name is ${this.name}`);
     }
 }
 
