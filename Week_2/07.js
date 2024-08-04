@@ -23,3 +23,6 @@ const multiplyByThree = multiplyBy(3) {
     return x + 3
 }
 */
+
+console.log(multiplyByTwo(10));
+console.log(multiplyByThree(10));
